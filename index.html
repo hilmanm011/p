@@ -1,610 +1,253 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta name="description" content="" />
-    <meta name="author" content="" />
-    <title>Portfolio - Muhamad Hilman</title>
-    <link rel="icon" type="image/x-icon" href="assets/img/icons8-bug-48.png" />
-    <!-- Font Awesome icons (free version)-->
-    <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
-    <!-- Google fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
-    <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel="stylesheet"
-        type="text/css" />
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
-    <!-- Core theme CSS (includes Bootstrap)-->
-    <link href="css/styles.css" rel="stylesheet" />
-</head>
+    <link rel="stylesheet" href="assets/css/styles.css" />
 
-<body id="page-top">
-    <!-- Navigation-->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
-        <div class="container">
-            <a class="navbar-brand js-scroll-trigger" href="#page-top">Portfolio</a>
-            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
-                data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
-                aria-label="Toggle navigation">
-                Menu
-                <i class="fas fa-bars ml-1"></i>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav text-uppercase ml-auto">
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#certificates">Certificates</a>
-                    </li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
-                    <!-- <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#team">Team</a></li> -->
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
-                </ul>
-            </div>
+    <!-- =====BOX ICONS===== -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <title>Portfolio | Muhamad Hilman</title>
+    <link rel="icon" type="image/x-icon" href="assets/img/logo.png" />
+    
+  <body>
+    <!--===== HEADER =====-->
+    <header class="l-header">
+      <nav class="nav bd-grid">
+        <div>
+          <a href="#" class="nav__logo"
+            ><img width="150" height="80" src="assets/img/logo.png" alt=""
+          /></a>
         </div>
-    </nav>
-    <!-- Masthead-->
-    <header class="masthead">
-        <div class="container">
-            <div class="timeline-image"><img width="200px" height="300px" class="shadow-lg p-3 mb-3 bg-white rounded-circle img-fluid"
-                    src="assets/img/myfoto.jpeg" alt="" />
-            </div>
-            <div class="masthead-heading text-uppercase">Muhamad Hilman</div>
-            <div class="masthead-subheading">Fresh graduate bachelor 1</div>
-            <div class="masthead-subheading">Information systems study program</div>
-            <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#skills">More details</a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">About</a>
+            </li>
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">Skills</a>
+            </li>
+            <li class="nav__item">
+              <a href="#work" class="nav__link">Work</a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">Contact</a>
+            </li>
+          </ul>
         </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-menu"></i>
+        </div>
+      </nav>
     </header>
-    <!-- Skills-->
-    <section class="page-section" id="skills">
-        <div class="container">
-            <div class="text-center">
-                <h2 class="section-heading text-uppercase">Skills</h2>
-                <h3 class="section-subheading text-muted">Beginner skills</h3>
-            </div>
-            <div class="row text-center">
-                <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                        <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fab fa-free-code-camp fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <h4 class="my-3">Codeigniter</h4>
-                    <p class="text-muted">Intermediate</p>
-                </div>
-                <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                        <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fab fa-bootstrap fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <h4 class="my-3">Bootstrap</h4>
-                    <p class="text-muted">Intermediate</p>
-                </div>
-                <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                        <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fas fa-code-branch fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <h4 class="my-3">Git & Github</h4>
-                    <p class="text-muted">Familiar</p>
-                </div>
-                <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                        <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fab fa-windows fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <h4 class="my-3">Microsoft Office</h4>
-                    <p class="text-muted">Familiar</p>
-                </div>
-                <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                        <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fab fa-react fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <h4 class="my-3">ReactJS</h4>
-                    <p class="text-muted">Basic</p>
-                </div>
-                <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                        <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fab fa-js-square fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <h4 class="my-3">JavaScript</h4>
-                    <p class="text-muted">Dasar</p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- certificates Grid-->
-    <section class="page-section bg-light" id="certificates">
-        <div class="container">
-            <div class="text-center">
-                <h2 class="section-heading text-uppercase">Certificates</h2>
-                <h3 class="section-subheading text-muted">Competency Certificate Gallery</h3>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 col-sm-6 mb-4">
-                    <div class="certificates-item">
-                        <a class="certificates-link" data-toggle="modal" href="#certificatesModal1">
-                            <div class="certificates-hover">
-                                <div class="certificates-hover-content"><i class="fas fa-medal fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/certificates/dasar-web.png" alt="" />
-                        </a>
-                        <div class="certificates-caption">
-                            <div class="certificates-caption-heading">Belajar Dasar Pemograman Web</div>
-                            <div class="certificates-caption-subheading text-muted">24 Oktober 2019</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 mb-4">
-                    <div class="certificates-item">
-                        <a class="certificates-link" data-toggle="modal" href="#certificatesModal2">
-                            <div class="certificates-hover">
-                                <div class="certificates-hover-content"><i class="fas fa-medal fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/certificates/fund-web.png" alt="" />
-                        </a>
-                        <div class="certificates-caption">
-                            <div class="certificates-caption-heading">Belajar Fundamental Front-End Web Development
-                            </div>
-                            <div class="certificates-caption-subheading text-muted">12 Agustus 2020</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 mb-4">
-                    <div class="certificates-item">
-                        <a class="certificates-link" data-toggle="modal" href="#certificatesModal3">
-                            <div class="certificates-hover">
-                                <div class="certificates-hover-content"><i class="fas fa-medal fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/certificates/pwa-sertifikat.png" alt="" />
-                        </a>
-                        <div class="certificates-caption">
-                            <div class="certificates-caption-heading">Membangun Progressive Web Apps</div>
-                            <div class="certificates-caption-subheading text-muted">01 Desember 2020</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
-                    <div class="certificates-item">
-                        <a class="certificates-link" data-toggle="modal" href="#certificatesModal4">
-                            <div class="certificates-hover">
-                                <div class="certificates-hover-content"><i class="fas fa-medal fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/certificates/android-pemula.png" alt="" />
-                        </a>
-                        <div class="certificates-caption">
-                            <div class="certificates-caption-heading">Belajar Membuat Aplikasi Android untuk Pemula
-                            </div>
-                            <div class="certificates-caption-subheading text-muted">30 November 2019</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
-                    <div class="certificates-item">
-                        <a class="certificates-link" data-toggle="modal" href="#certificatesModal5">
-                            <div class="certificates-hover">
-                                <div class="certificates-hover-content"><i class="fas fa-medal fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/certificates/solid.png" alt="" />
-                        </a>
-                        <div class="certificates-caption">
-                            <div class="certificates-caption-heading">Belajar Prinsip Pemograman SOLID</div>
-                            <div class="certificates-caption-subheading text-muted">01 Mei 2020</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <div class="certificates-item">
-                        <a class="certificates-link" data-toggle="modal" href="#certificatesModal6">
-                            <div class="certificates-hover">
-                                <div class="certificates-hover-content"><i class="fas fa-medal fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/certificates/javascript-sertifikat.png" alt="" />
-                        </a>
-                        <div class="certificates-caption">
-                            <div class="certificates-caption-heading">Belajar Dasar Pemrograman JavaScript</div>
-                            <div class="certificates-caption-subheading text-muted">01 Juni 2021</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- About-->
-    <section class="page-section" id="about">
-        <div class="container">
-            <div class="text-center">
-                <h2 class="section-heading text-uppercase">About</h2>
-                <h3 class="section-subheading text-muted">Story Education</h3>
-            </div>
-            <ul class="timeline">
-                <li>
-                    <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/sdn.png" alt="" />
-                    </div>
-                    <div class="timeline-panel">
-                        <div class="timeline-heading">
-                            <h4>September 2008</h4>
-                            <h4 class="subheading">SDN Mekarsari</h4>
-                        </div>
-                        <div class="timeline-body">
-                            <p class="text-muted">SDN Mekarsari Desa Bojongkeding Kecamatan Tambakdahan
-                                Kabupaten Subang, Jawa Barat - Indonesia 41253</p>
-                        </div>
-                    </div>
-                </li>
-                <li class="timeline-inverted">
-                    <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/smp-osis.png"
-                            alt="" />
-                    </div>
-                    <div class="timeline-panel">
-                        <div class="timeline-heading">
-                            <h4>September 2011</h4>
-                            <h4 class="subheading">SMP Negeri 1 Tambakdahan</h4>
-                        </div>
-                        <div class="timeline-body">
-                            <p class="text-muted">Jl. Tambakdahan no. 53, Desa Tambakdahan, Kec. Tambakdahan,
-                                Tambakdahan, Kabupaten Subang, Jawa Barat - Indonesia 41253</p>
-                        </div>
-                    </div>
-                </li>
-                <li>
-                    <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/sma.png" alt="" />
-                    </div>
-                    <div class="timeline-panel">
-                        <div class="timeline-heading">
-                            <h4>Mei 2014</h4>
-                            <h4 class="subheading">SMA Kabupaten Subang</h4>
-                        </div>
-                        <div class="timeline-body">
-                            <p class="text-muted">ILMU PENGETAHUAN SOSIAL</p>
-                            <p class="text-muted">Kabupaten Subang Provinsi Jawa Barat - Indonesia</p>
-                        </div>
-                    </div>
-                </li>
-                <li class="timeline-inverted">
-                    <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/unsub.ico"
-                            alt="" /></div>
-                    <div class="timeline-panel">
-                        <div class="timeline-heading">
-                            <h4>Agustus 2020</h4>
-                            <h4 class="subheading">Universitas Subang</h4>
 
-                        </div>
-                        <div class="timeline-body">
-                            <p class="text-muted">FAKULTAS ILMU KOMPUTER PROGRAM STUDI SISTEM INFORMASI</p>
-                            <p class="text-muted">Jl. R.A. Kartini KM. 3 desa nyimplung, Pasirkareumbi, Kec. Subang,
-                                Kabupaten Subang, Jawa Barat - Indonesia 41285</p>
-                        </div>
-                    </div>
-                </li>
-                <li class="timeline-inverted">
-                    <div class="timeline-image">
-                        <h4>
-                            Next
-                            <br />
-                            Timeline
-                            <br />
-                            Story!
-                        </h4>
-                    </div>
-                </li>
-            </ul>
+    <main class="l-main">
+      <!--===== HOME =====-->
+      <section class="home bd-grid" id="home">
+        <div class="home__data">
+          <h1 class="home__title">
+            Hi,<br />I'am <span class="home__title-color">Hilman</span><br />
+            Web Developer
+          </h1>
+
+          <a href="https://t.me/hilman_0" class="button">Contact</a>
         </div>
-    </section>
-    <!-- Team-->
-    <section class="page-section bg-light" id="team">
-        <div class="container">
-            <div class="text-center">
-                <h2 class="section-heading text-uppercase">Project</h2>
-                <h3 class="section-subheading text-muted">Pengalaman Latihan Project</h3>
-            </div>
-            <div class="row">
-                <div class="col-lg-4">
-                    <div class="team-member">
-                        <img class="mx-auto rounded-circle" src="assets/img/project/frontend.jpg" alt="" />
-                        <h4>Project Pelatihan</h4>
-                        <p class="text-muted">Front-End Developer</p>
-                        <!-- <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a> -->
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="team-member">
-                        <img class="mx-auto rounded-circle" src="assets/img/project/backend.jpg" alt="" />
-                        <h4>Project Pelatihan</h4>
-                        <p class="text-muted">Back-End Developer</p>
-                        <!-- <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a> -->
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="team-member">
-                        <img class="mx-auto rounded-circle" src="assets/img/project/uiux.jpg" alt="" />
-                        <h4>Project Pelatihan</h4>
-                        <p class="text-muted">UI/UX</p>
-                        <!-- <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a> -->
-                    </div>
-                </div>
-            </div>
+
+        <div class="home__social">
+          <a
+            href="https://www.linkedin.com/in/muhamad-hilman-b5a22b17b/"
+            target="blank"
+            class="home__social-icon"
+            ><i class="bx bxl-linkedin"></i
+          ></a>
+          <a href="https://cakepedia.herokuapp.com/" class="home__social-icon"
+            ><i class="bx bx-globe"></i
+          ></a>
+          <a
+            href="https://github.com/hilmanm011"
+            class="home__social-icon"
+            target="blank"
+            ><i class="bx bxl-github"></i
+          ></a>
         </div>
-    </section> -->
-     <!-- Contact -->
-     <section class="page-section" id="contact">
-        <div class="container">
-            <div class="text-center">
-                <h2 class="section-heading text-uppercase">Contact</h2>
-                
-                <div class="container mt-3">
-                    <div id="accordion">
-                        <div class="card">
-                            <div class="card-header">
-                                <a class="card-link text-center" data-toggle="collapse" href="#collapseOne">
-                                    <!-- <img src="assets/img/nw-fto.png" class="img-fluid mx-auto d-block"> -->
-                                    <h4><i class="fas fa-user-tie"></i> <span class="font-weight-bold">Muhamad
-                                            Hilman</span></h4>
-                                </a>
-                            </div>
-                            <div id="collapseOne" class="collapse show" data-parent="#accordion">
-                                <div class="card-body">
-                                    <p><i class="fab fa-whatsapp"></i> <span
-                                            class="font-weight-bold">+6289684130569</span></p>
-                                    <p><i class="fas fa-envelope-square"></i> <span
-                                            class="font-weight-bold">muhamadhilman885@gmail.com</span></p>
-                                    <p><i class="fas fa-map-marker-alt"></i> <span
-                                            class="font-weight-bold">Bojongkeding, Tambakdahan, Kabupaten Subang, Jawa
-                                            Barat - Indonesia 41253</span></p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-    </section>
-    <!-- Footer-->
-    <footer class="footer py-4">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-4 text-lg-left">Copyright © Muhamad Hilman 2021</div>
-                <div class="col-lg-4 my-3 my-lg-0">
-                    <a target="blank" class="btn btn-dark btn-social mx-2" href="https://github.com/hilmanm011"><i
-                            class="fab fa-github"></i></a>
-                    <a target="blank" class="btn btn-dark btn-social mx-2"
-                        href="https://www.instagram.com/hilman_m011/"><i class="fab fa-instagram"></i></a>
-                    <a target="blank" class="btn btn-dark btn-social mx-2"
-                        href="https://www.linkedin.com/in/muhamad-hilman-b5a22b17b/"><i
-                            class="fab fa-linkedin-in"></i></a>
-                </div>
-                <div class="col-lg-4 text-lg-right">
-                    <a class="mr-3" href="#!">Privacy Policy</a>
-                    <a href="#!">Terms of Use</a>
-                </div>
-            </div>
+
+        <div class="home__img">
+          <img src="assets/img/mfoto-removebg-preview (2) (1).png" alt="" />
         </div>
+      </section>
+
+      <!--===== ABOUT =====-->
+      <section class="about section" id="about">
+        <h2 class="section-title">About</h2>
+
+        <div class="about__container bd-grid">
+          <div class="about__img">
+            <img src="assets/img/New-2.png" alt="" />
+          </div>
+
+          <div>
+            <h2 class="about__subtitle">Bachelor of Information Systems</h2>
+            <p class="about__text">
+              Highly motivated S1 Information Systems graduate with extensive
+              knowledge of information technology. Passionate about building
+              models that fix IT problems and finding programming related
+              solutions. Relevant skills in teamwork. Have good interpersonal
+              skills, be agile, and continue to learn to keep up with
+              technological developments.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!--===== SKILLS =====-->
+      <section class="skills section" id="skills">
+        <h2 class="section-title">Skills</h2>
+
+        <div class="skills__container bd-grid">
+          <div>
+            <h2 class="skills__subtitle">Profesional Skills</h2>
+            <p class="skills__text">
+              I will continue to develop in improving my ability to become a
+              professional, especially in IT skills.
+            </p>
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="bx bxl-html5 skills__icon"></i>
+                <span class="skills__name">HTML5</span>
+              </div>
+              <div class="skills__bar skills__html"></div>
+              <div>
+                <span class="skills__percentage">95%</span>
+              </div>
+            </div>
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="bx bxl-css3 skills__icon"></i>
+                <span class="skills__name">CSS</span>
+              </div>
+              <div class="skills__bar skills__css"></div>
+              <div>
+                <span class="skills__percentage">85%</span>
+              </div>
+            </div>
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="bx bxl-javascript skills__icon"></i>
+                <span class="skills__name">JAVASCRIPT</span>
+              </div>
+              <div class="skills__bar skills__js"></div>
+              <div>
+                <span class="skills__percentage">65%</span>
+              </div>
+            </div>
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class='bx bxl-nodejs skills__icon'></i>
+                <span class="skills__name">Node JS</span>
+              </div>
+              <div class="skills__bar skills__ux"></div>
+              <div>
+                <span class="skills__percentage">85%</span>
+              </div>
+            </div>
+            <div class="skills__data">
+                <div class="skills__names">
+                  <i class='bx bxl-react skills__icon'></i>
+                  <span class="skills__name">React JS</span>
+                </div>
+                <div class="skills__bar skills__js"></div>
+                <div>
+                  <span class="skills__percentage">65%</span>
+                </div>
+              </div>
+          </div>
+
+          <div>
+            <img src="assets/img/work3.jpg" alt="" class="skills__img" />
+          </div>
+        </div>
+      </section>
+
+      <!--===== WORK =====-->
+      <section class="work section" id="work">
+        <h2 class="section-title">Work</h2>
+
+        <div class="work__container bd-grid">
+          <div class="work__img">
+            <img src="assets/img/work1.jpg" alt="" />
+          </div>
+          <div class="work__img">
+            <img src="assets/img/work2.jpg" alt="" />
+          </div>
+          <div class="work__img">
+            <img src="assets/img/work3.jpg" alt="" />
+          </div>
+          <div class="work__img">
+            <img src="assets/img/work4.jpg" alt="" />
+          </div>
+          <div class="work__img">
+            <img src="assets/img/work5.jpg" alt="" />
+          </div>
+          <div class="work__img">
+            <img src="assets/img/work6.jpg" alt="" />
+          </div>
+        </div>
+      </section>
+
+      <!--===== CONTACT =====-->
+      <section class="contact section" id="contact">
+        <h2 class="section-title">Contact</h2>
+
+        <div class="contact__container bd-grid">
+          <form action="" class="contact__form">
+            <input type="text" placeholder="Name" class="contact__input" />
+            <input type="mail" placeholder="Email" class="contact__input" />
+            <textarea
+              name=""
+              id=""
+              cols="0"
+              rows="10"
+              class="contact__input"
+            ></textarea>
+            <input
+              type="button"
+              value="Submit"
+              class="contact__button button"
+            />
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!--===== FOOTER =====-->
+    <footer class="footer">
+      <p class="footer__title">Hilman</p>
+      <div class="footer__social">
+        <a href="#" class="footer__icon"><i class="bx bxl-facebook"></i></a>
+        <a href="https://www.instagram.com/hilman_m011/" class="footer__icon"
+          ><i class="bx bxl-instagram"></i
+        ></a>
+        <a href="https://twitter.com/Hilman50958957" class="footer__icon"
+          ><i class="bx bxl-twitter"></i
+        ></a>
+      </div>
+      <p>&#169; 2021 copyright all right reserved</p>
     </footer>
-    <!-- certificates Modals-->
-    <!-- Modal 1-->
-    <div class="certificates-modal modal fade" id="certificatesModal1" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" />
-                </div>
-                <div class="container">
-                    <div class="row justify-content-center">
-                        <div class="col-lg-8">
-                            <div class="modal-body">
-                                <!-- Certificate Details Go Here-->
-                                <h2 class="text-uppercase">Belajar Dasar Pemograman Web</h2>
-                                <p class="item-intro text-muted">Disusun oleh: Dicoding Indonesia</p>
-                                <p class="item-intro text-muted">Level: Dasar - Pemula</p>
-                                <img class="img-fluid d-block mx-auto" src="assets/img/certificates/dasar-web.png"
-                                    alt="" />
-                                <ul class="list-inline">
-                                    <li>ID: D98XW34KWXM3</li>
-                                    <li>Diberikan pada: Oct 24, 2019</li>
-                                    <li>Berlaku sampai: Oct 24, 2022</li>
-                                    <li><a target="blank"
-                                            href="https://www.dicoding.com/certificates/D98XW34KWXM3">https://www.dicoding.com/certificates/D98XW34KWXM3</a>
-                                    </li>
-                                </ul>
-                                <button class="btn btn-primary" data-dismiss="modal" type="button">
-                                    <i class="fas fa-times mr-1"></i>
-                                    Close
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Modal 2-->
-    <div class="certificates-modal modal fade" id="certificatesModal2" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" />
-                </div>
-                <div class="container">
-                    <div class="row justify-content-center">
-                        <div class="col-lg-8">
-                            <div class="modal-body">
-                                <!-- Certificate Details Go Here-->
-                                <h2 class="text-uppercase">Belajar Fundamental Front-End Web Development</h2>
-                                <p class="item-intro text-muted">Disusun oleh: Dicoding Indonesia</p>
-                                <p class="item-intro text-muted">Level: Pemula - Menengah</p>
-                                <img class="img-fluid d-block mx-auto" src="assets/img/certificates/fund-web.png"
-                                    alt="" />
-                                <ul class="list-inline">
-                                    <li>ID: 981P20O2QXOY</li>
-                                    <li>Diberikan pada: Aug 12, 2020</li>
-                                    <li>Berlaku sampai: Aug 12, 2023</li>
-                                    <li><a target="blank"
-                                            href="https://www.dicoding.com/certificates/981P20O2QXOY">https://www.dicoding.com/certificates/981P20O2QXOY</a>
-                                    </li>
-                                </ul>
-                                <button class="btn btn-primary" data-dismiss="modal" type="button">
-                                    <i class="fas fa-times mr-1"></i>
-                                    Close
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Modal 3-->
-    <div class="certificates-modal modal fade" id="certificatesModal3" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" />
-                </div>
-                <div class="container">
-                    <div class="row justify-content-center">
-                        <div class="col-lg-8">
-                            <div class="modal-body">
-                                <!-- Certificate Details Go Here-->
-                                <h2 class="text-uppercase">Membangun Progressive Web Apps</h2>
-                                <p class="item-intro text-muted">Disusun oleh: CodePolitan</p>
-                                <p class="item-intro text-muted">Level: Mahir</p>
-                                <img class="img-fluid d-block mx-auto" src="assets/img/certificates/pwa-sertifikat.png"
-                                    alt="" />
-                                <ul class="list-inline">
-                                    <li>ID: 6RPNK4O68P2M</li>
-                                    <li>Diberikan pada: Des 01, 2020</li>
-                                    <li>Berlaku sampai: Des 01, 2023</li>
-                                    <li><a target="blank"
-                                            href="https://www.dicoding.com/certificates/6RPNK4O68P2M">https://www.dicoding.com/certificates/6RPNK4O68P2M</a>
-                                    </li>
-                                </ul>
-                                <button class="btn btn-primary" data-dismiss="modal" type="button">
-                                    <i class="fas fa-times mr-1"></i>
-                                    Close
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Modal 4-->
-    <div class="certificates-modal modal fade" id="certificatesModal4" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" />
-                </div>
-                <div class="container">
-                    <div class="row justify-content-center">
-                        <div class="col-lg-8">
-                            <div class="modal-body">
-                                <!-- Certificate Details Go Here-->
-                                <h2 class="text-uppercase">Belajar Membuat Aplikasi Android untuk Pemula</h2>
-                                <p class="item-intro text-muted">Disusun oleh: Google ATP</p>
-                                <p class="item-intro text-muted">Level: Pemula</p>
-                                <img class="img-fluid d-block mx-auto" src="assets/img/certificates/android-pemula.png"
-                                    alt="" />
-                                <ul class="list-inline">
-                                    <li>ID: G1OP8G051PQK</li>
-                                    <li>Diberikan pada: Nov 30, 2019</li>
-                                    <li>Berlaku sampai: Nov 30, 2022</li>
-                                    <li><a target="blank"
-                                            href="https://www.dicoding.com/certificates/G1OP8G051PQK">https://www.dicoding.com/certificates/G1OP8G051PQK</a>
-                                    </li>
-                                </ul>
-                                <button class="btn btn-primary" data-dismiss="modal" type="button">
-                                    <i class="fas fa-times mr-1"></i>
-                                    Close
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Modal 5-->
-    <div class="certificates-modal modal fade" id="certificatesModal5" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" />
-                </div>
-                <div class="container">
-                    <div class="row justify-content-center">
-                        <div class="col-lg-8">
-                            <div class="modal-body">
-                                <!-- Certificate Details Go Here-->
-                                <h2 class="text-uppercase">Belajar Prinsip Pemrograman SOLID</h2>
-                                <p class="item-intro text-muted">Disusun oleh: Dicoding Indonesia</p>
-                                <p class="item-intro text-muted">Level: Dasar</p>
-                                <img class="img-fluid d-block mx-auto" src="assets/img/certificates/solid.png" alt="" />
-                                <ul class="list-inline">
-                                    <li>ID: VKEXL5930ZG2</li>
-                                    <li>Diberikan pada: May 1, 2020</li>
-                                    <li>Berlaku sampai: May 1, 2023</li>
-                                    <li><a target="blank"
-                                            href="https://www.dicoding.com/certificates/VKEXL5930ZG2">https://www.dicoding.com/certificates/VKEXL5930ZG2</a>
-                                    </li>
-                                </ul>
-                                <button class="btn btn-primary" data-dismiss="modal" type="button">
-                                    <i class="fas fa-times mr-1"></i>
-                                    Close
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Modal 6-->
-    <div class="certificates-modal modal fade" id="certificatesModal6" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" />
-                </div>
-                <div class="container">
-                    <div class="row justify-content-center">
-                        <div class="col-lg-8">
-                            <div class="modal-body">
-                                <!-- Certificate Details Go Here-->
-                                <h2 class="text-uppercase">Belajar Dasar Pemrograman JavaScript</h2>
-                                <p class="item-intro text-muted">Disusun oleh: Dicoding Indonesia</p>
-                                <p class="item-intro text-muted">Level: Dasar</p>
-                                <img class="img-fluid d-block mx-auto" src="assets/img/certificates/javascript-sertifikat.png"
-                                    alt="" />
-                                <ul class="list-inline">
-                                    <li>ID: 6RPNK27RQP2M</li>
-                                    <li>Diberikan pada: Jun 01, 2021</li>
-                                    <li>Berlaku sampai: Jun 01, 2024</li>
-                                    <li><a target="blank"
-                                            href="https://www.dicoding.com/certificates/6RPNK27RQP2M">https://www.dicoding.com/certificates/6RPNK27RQP2M</a>
-                                    </li>
-                                </ul>
-                                <button class="btn btn-primary" data-dismiss="modal" type="button">
-                                    <i class="fas fa-times mr-1"></i>
-                                    Close
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Bootstrap core JS-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
-    <!-- Third party plugin JS-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-    <!-- Contact form JS-->
-    <script src="assets/mail/jqBootstrapValidation.js"></script>
-    <script src="assets/mail/contact_me.js"></script>
-    <!-- Core theme JS-->
-    <script src="js/scripts.js"></script>
-</body>
 
+    <!--===== SCROLL REVEAL =====-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--===== MAIN JS =====-->
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
